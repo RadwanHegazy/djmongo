@@ -6,10 +6,10 @@ from . import data_manager
 
 
 class Model(
-    data_manager.RetriveData,  
+    data_manager.RetriveData,
     data_manager.FilterData,
     data_manager.CreateData,
-    data_manager.DeleteData, 
+    data_manager.DeleteData,
     data_manager.UpdateData,
 ) :
     """
