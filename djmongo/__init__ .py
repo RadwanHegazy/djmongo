@@ -1,0 +1,1 @@
+from djmongo.models import MongoClient, Model
